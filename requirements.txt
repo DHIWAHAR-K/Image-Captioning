@@ -1,0 +1,4 @@
+tensorflow
+wget
+numpy
+matplotlib
