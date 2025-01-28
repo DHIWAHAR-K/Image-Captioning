@@ -1,4 +1,4 @@
 data/
 vocabulary/
-model/
-notebook/
+models/
+logs/
