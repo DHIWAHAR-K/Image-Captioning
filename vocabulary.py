@@ -4,7 +4,7 @@ import random
 import collections
 import tensorflow as tf
 from tokenizer import tokenizer
-from preprocess import captions
+from data_preparation import captions
 
 pickle.dump(tokenizer.get_vocabulary(), open('./vocabulary/vocab_coco.file', 'wb'))
 
