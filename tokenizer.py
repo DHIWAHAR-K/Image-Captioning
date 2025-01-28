@@ -1,6 +1,6 @@
 #tokenizer.py
 import tensorflow as tf
-from data_preparation import captions
+from data_cleaning import captions
 from configs import VOCABULARY_SIZE, MAX_LENGTH
 
 tokenizer = tf.keras.layers.TextVectorization(
