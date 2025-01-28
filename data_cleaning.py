@@ -1,10 +1,10 @@
-#preprocess.py
+#data_cleaning.py
 import re
 import json
 import pandas as pd
-from configs import data_path
+from configs import DATA_PATH
 
-with open(f'{data_path}/annotations/captions_train2017.json', 'r') as f:
+with open(f'{DATA_PATH}/annotations/captions_train2017.json', 'r') as f:
     data = json.load(f)
     data = data['annotations']
 
@@ -16,7 +16,7 @@ for sample in data:
 
 captions = pd.DataFrame(img_cap_pairs, columns=['image', 'caption'])
 captions['image'] = captions['image'].apply(
-    lambda x: f'{data_path}/train2017/{x}'
+    lambda x: f'{DATA_PATH}/train2017/{x}'
 )
 captions = captions.sample(70000)
 captions = captions.reset_index(drop=True)
