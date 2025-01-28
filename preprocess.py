@@ -2,7 +2,7 @@
 import re
 import json
 import pandas as pd
-from directories import data_path
+from configs import data_path
 
 with open(f'{data_path}/annotations/captions_train2017.json', 'r') as f:
     data = json.load(f)
