@@ -4,7 +4,7 @@ This project implements an **end-to-end image captioning system** using a **CNN 
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 | File/Module              | Description                                                                 |
 |--------------------------|-----------------------------------------------------------------------------|
@@ -24,7 +24,7 @@ This project implements an **end-to-end image captioning system** using a **CNN 
 
 ---
 
-## ⚙️ Configuration Parameters
+## Configuration Parameters
 
 | Parameter         | Description                                        |
 |-------------------|----------------------------------------------------|
